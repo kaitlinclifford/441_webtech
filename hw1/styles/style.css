@@ -1,0 +1,135 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  /* this is the main font of the page, except for when specified */
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+.hero {
+  /* the 'vh' unit asks the browser to */
+  /* return the height of the viewport */
+  /* we can then use that to set the height of an element */
+  /* as a percentage of the viewport height (vh) */
+  height: 100vh;
+  min-height: 740px;
+  background-image: url("../images/kaitlinimage.JPG");
+  background-position: left;
+  background-size: cover;
+  /* shadow behind image */
+  box-shadow: 0 8px 15px rgba(10, 41, 152, 0.8);
+}
+
+/* this is for the purple box with my name and university stuff */
+.hero .title {
+    font-size: 20pt;
+    color: black;
+    font-family: fantasy;
+    /* the whole box and title are going to be right */
+    float: right;
+
+    margin-top: 400px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 2em;
+    text-align: center;
+    /* the background color has a 70% opacity */
+    background-color: rgba(85, 91, 232, 0.7);
+}
+
+.parallax {
+  /* this is all for the parallax including image */
+  background-image: url("../images/seoul-pretty.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* the div that includes everything below it with parallax */
+.parallax .nav {
+    font-family: cursive, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 2em;
+    font-size: 1.60em;
+
+}
+
+/* this references the a href thing */
+.parallax .nav a {
+    color: #fff;
+    /* this takes away the underline that would be there from the link */
+    text-decoration: none;
+}
+
+/* this is for the check out articles writing */
+.parallax .nav-item {
+    font-size: 5.5em;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    text-align: center;
+    /* border around "check out snackfever articles" */
+    border: 1px solid #d9d9d9;
+    /* changes the border width of the square */
+    border-width: 3px 3px;
+    max-height: inherit;
+}
+
+.parallax .nav-item:hover {
+    color: #fff;
+    /* this is the color the hover will be when scrolling over it*/
+    background-color: rgba(85, 9, 247, 0.7);
+    max-height: inherit;
+}
+
+
+.about {
+  font-size: 25pt;
+  color: black;
+  /* font: 'Josefin Sans'; */
+  float: center;
+  /* margin-top means how many pxs away from the thing above it */
+  /* space between hero image, and about box */
+  margin-top: 30px;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 2em;
+  text-align: center;
+  background-position: center;
+  background-color: rgba(143, 87, 233, .7);
+
+}
+
+/* these 2 are pretty much the same as the about div */
+.career {
+  font-size: 25pt;
+  color: black;
+  float: center;
+  margin-top: -50px;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 2em;
+  text-align: center;
+  background-color: rgba(194, 188, 195, .8);
+}
+
+/* same */
+.internship {
+  font-size: 25pt;
+  color: black;
+  float: center;
+  margin-top: -50px;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 2em;
+  text-align: center;
+  background-color: rgba(59, 181, 226, 0.8);
+
+}
