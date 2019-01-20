@@ -21,4 +21,4 @@ Kaitlin Clifford
 - Even though I know I'm not good at coding, I always find it really satisfying when I can make an actual site come to life so I want to try and get better!
 
 
-![Image of my site](hw1photo.jpg)
+My Site: https://kaitlinclifford.github.io/441_webtech/hw1/
