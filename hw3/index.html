@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Accessing the DOM</title>
+        <style>body{background-color: rgb(121, 245, 245);}</style>
+        <meta name="author" content="Kaitlin Clifford">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <script>
+        //this is the function to pop up when they go on the page and ask a question
+            function popup()
+            {
+              var name = window.prompt("What is Your Favorite Youtube Channel?");
+              console.log(name + "...hmmm. Never would've guessed!");
+            }
+/*here is my link but i need to figure out how to use it
+            function link()
+            {
+              var meme = document.getElementById("./images/meme_review.jpg");
+            }
+          */
+        </script>
+
+    </head>
+    <body>
+      <!--background image place-->
+        <div class="image">
+          <img src="./images/youtubers.jpg" style="position: center;" width="device-width">
+        </div>
+
+        <div class="intro">
+          <h1>Welcome adventurer! Here lies a test to help you seek out the best
+            YouTube channel for you to watch. Your answers will determine who's
+            right for you! If you don't like your answer, you can always try again
+            and see if you get a different result!</h1>
+        </div>
+        <div class="meme"><h2>Do You Enjoy Meme's?</h2></div>
+        <!--example story line to lead to ending with youtuber page-->
+        <script>
+        //calls the popup function to work on the site
+            popup();
+
+            // NOT USING THIS LINK YET
+            // link();
+        </script>
+        <div class="pewds">
+            <a href="https://www.youtube.com/user/PewDiePie" target="_blank">
+                <div class="nav-item">DEFINITELY!</div>
+            </a>
+        </div>
+        <br>
+        <br>
+        <div class="tseries">
+            <a href="https://www.youtube.com/user/tseries" target="_blank">
+                <div class="nav-item">Honestly No!</div>
+            </a>
+        </div>
+    </body>
+</html>
+<!--I want this to be a choosing some kind of youtuber to watch sort of story-->
+<!-- after each question, there is a yes or no which links to a new page, or to
+a new part of the site in order to get the end youtuber result -->
+
+<!--NOTES FOR WHAT I CAN USE NEXT TIME
+if(){} / else{}
+link to Yes
+- link goes to pewdiepie channel
+link to No
+- link goes to tseries channel
+var x = document.getElementById("myImg");-->

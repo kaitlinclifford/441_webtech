@@ -1,0 +1,36 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  /* this is the main font of the page, except for when specified */
+  font-family: 'Josefin Sans',fantasy, sans-serif;
+  font-weight: 300;
+}
+
+.intro {
+  font-size: 15pt;
+  color: black;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.meme {
+  font-size: 12pt;
+  color: black;
+  font-family: fantasy;
+  text-align: left;
+}
+
+.pewds a{
+  font-size: 10pt;
+  color: rgb(52, 23, 230);
+  /* font-family: fantasy; */
+  text-align: left;
+}
+
+.tseries a{
+  font-size: 10pt;
+  color: rgb(219, 26, 73);
+  /* font-family: fantasy; */
+  text-align: left;
+}
