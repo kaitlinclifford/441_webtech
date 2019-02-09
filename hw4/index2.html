@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Choose Your Own Adventure</title>
+    <style>body{background-color: rgb(121, 245, 245);}</style>
+    <meta name="author" content="Kaitlin Clifford">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+<!--this is where i put my functions.. call later-->
+    <script>
+        function popup()
+        {
+          var name = window.prompt("Who is Your Favorite Youtuber?");
+          console.log(name + "...hmmm. Never would've guessed!");
+        };
+
+        function intro()
+        {
+          var intro = window.prompt("You are at Vidcon in the lobby, waiting to see your fave, when all of the sudden many different YouTubers come into the lobby to take pictures with people. You can stay and wait for your fave, or leave for the new ones! Choose to Stay or Leave. (please use lowercase)");
+          if (intro == "stay") {
+            alert("Alright! Have fun waiting here!")
+          }
+          else {
+            first();
+          }
+        };
+
+        function first()
+        {
+          var reply = confirm("Are you ready to start your journey?");
+          if (reply == true) {
+
+          }
+          else {
+            alert("Are you sure?");
+
+          }
+        };
+
+        function game()
+        {
+            var gamer = window.prompt("You see Markiplier and Jacksepticeye, who do you go to? (please use lowercase)");
+            if (gamer == "markiplier"){
+              // document.getElementById("markiplier").src="images/stay.jpg";
+              alert("Onto question 2!");
+              // twice();
+            }
+            else if(gamer == "jacksepticeye"){
+              alert("Solid answer.")
+            }
+          };
+
+          function twice()
+          {
+            var regular = window.prompt("Now you see Jenna Marbles, and Logan Paul, who would you rather talk to? (please use lowercase & full name)");
+            if (regular == "jenna marbles"){
+
+              alert("Good choice! Moving on!");
+            }
+            else if (regular == "logan paul"){
+              alert("Are you REALLY sure??")
+            }
+          };
+
+          function cool()
+          {
+            var cool = window.prompt("Out of the corner of your eye, you see theodd1sout and jaiden animations.. choose wisely!");
+            if (cool == "theodd1sout"){
+              alert("nice! way to be")
+            }
+            else if (cool == "jaiden animations"){
+              alert("ok..ok..")
+            }
+          };
+
+          function best()
+          {
+            var awesome = window.prompt("Now here is the true test! PewDiePie or TSeries? (please use lowercase)");
+            if (awesome == "pewdiepie"){
+              alert("THAT'S RIGHT FELLOW 9 YEAR OLD! WE DID IT! You definitely know which YouTubers are the best!")
+            }
+            else if (awesome = "tseries"){
+              alert("ARE YOU KIDDING ME?!?! I can't believe you right now! I'm starting to think you really suck at life!")
+            }
+          };
+
+          function last()
+          {
+            alert("Thanks for playing!")
+          };
+    </script>
+
+  </head>
+  <body style="background-image: url(./images/youtubers.jpg);">
+    <!-- <div class="image">
+      ****added a 'id' attribute to the image tag****
+      <img src="youtubers.jpg" width="device-width" id="youtube">
+    </div>
+    <div class="image2">
+
+    </div> -->
+    <!--this is where I call my functions-->
+    <script>
+
+    // document.getElementById(youtube);
+        popup();
+        intro();
+        first();
+        game();
+        twice();
+        cool();
+        best();
+        last();
+    </script>
+
+  </body>
+</html>
