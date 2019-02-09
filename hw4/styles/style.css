@@ -14,23 +14,17 @@ body, html {
   text-align: center;
 }
 
-.meme {
-  font-size: 12pt;
-  color: black;
-  font-family: fantasy;
-  text-align: left;
-}
+.button {
+font-size: 25pt;
+color: white;
+font-family: fantasy;
+float: center;
 
-.pewds a{
-  font-size: 10pt;
-  color: rgb(52, 23, 230);
-  /* font-family: fantasy; */
-  text-align: left;
-}
-
-.tseries a{
-  font-size: 10pt;
-  color: rgb(219, 26, 73);
-  /* font-family: fantasy; */
-  text-align: left;
+margin-top: 250px;
+margin-left: 10em;
+margin-right: 10em;
+padding: 1em;
+text-align: center;
+/* the background color has a 70% opacity */
+background-color: rgba(85, 91, 232, 0.8);
 }
