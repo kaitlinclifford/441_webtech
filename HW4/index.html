@@ -48,7 +48,7 @@
         {
             var gamer = window.prompt("You see Markiplier and Jacksepticeye, who do you go to? (please use lowercase)");
             if (gamer == "markiplier"){
-              // document.getElementById("markiplier").src="images/stay.jpg";
+              // document.getElementById("youtube").src="./images/markiplier.jpg";
               alert("Woooo! Onto question 2!");
               twice();
             }
@@ -117,7 +117,7 @@
     </script>
 
   </head>
-  <body style="background-image: url(./images/youtubers.jpg);">
+  <body style="background-image: url(./images/youtubers.jpg);" id="youtube">
     <!-- <div class="image">
       ****added a 'id' attribute to the image tag****
       <img src="youtubers.jpg" width="device-width" id="youtube">
@@ -128,6 +128,7 @@
       <h2><center>Start Your YouTuber Adventure?</center></h2>
       <button id="btnSubmit" onclick="intro();">YES</button>
     </div>
+
     <!--this is where I call my functions-->
     <script>
 
