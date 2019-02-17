@@ -18,5 +18,6 @@ Kaitlin Clifford
 
 - Grasshopper is still going well! Really enjoying it.
 - Wasn't sure how many images I was supposed to put for this assignment, so I only did 5 images to make it 10 total images to match together.
+-my link down below keeps sending it back to the readme instead of my actual site :(
 
 My Site: https://kaitlinclifford.github.io/441_webtech/hw5/
