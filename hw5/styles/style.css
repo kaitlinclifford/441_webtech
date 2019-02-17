@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(41, 185, 199);
+    font-family: 'Josefin Sans',fantasy, sans-serif;
+    font-weight: 300;
+}
+
+.intro{
+  font-size: 20pt;
+  color: rgb(46, 11, 161);
+  text-align: center;
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 3px solid #b62d5e;
+	display: table-cell;
+	padding: 3px 13px;
+}
+/* problaby don't need */
+/* .divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold; */
+}
+/* .divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold; */
+}
+.divTableBody {
+	display: table-row-group;
+}
