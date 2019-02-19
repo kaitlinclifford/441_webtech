@@ -21,6 +21,3 @@ Kaitlin Clifford
 - My link down below keeps sending it back to the readme instead of my actual site :(
 
 My Site: https://kaitlinclifford.github.io/441_webtech/hw5/
-
-Also, I don't know if this will work for you, but I'm putting it just in case so you can see the Site
-file:///Users/owner/Documents/441_webtech/hw5/index.html
