@@ -125,7 +125,7 @@ function addInfo(){
 
     localStorage.setItem("player", JSON.stringify(playerInfo));
 
-    window.location = "index.html";
+    window.location = "game.html";
 }
 
 function player(){

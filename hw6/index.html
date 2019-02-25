@@ -3,51 +3,51 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-      <meta name="author" content="Kaitlin Clifford">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="author" content="Kaitlin Clifford">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Memorizing Images Game!
+        Memory Matching!
     </title>
     <script src="scripts/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/first.css">
     </link>
 </head>
 
-<body onload="printBlanks();player();">
-<!-- lastInfo(); -->
-  <div class="intro">
-    <h1>Try to Memorize the Images!</h1>
+<body>
+  <div class="heading">
+    <h1>Memory Matching</h1>
   </div>
 
-    <div class="divTable">
-        <div class="divTableBody">
-            <div class="divTableRow">
-              <!--row 1  -->
-                <div class="divTableCell"><img src="" id="image1" width="300" height="250" onclick="flipImage(0);"></div>
-                <div class="divTableCell"><img src="" id="image2" width="300" height="250" onclick="flipImage(1);"></div>
-                <div class="divTableCell"><img src="" id="image3" width="300" height="250" onclick="flipImage(2);"></div>
-                <div class="divTableCell"><img src="" id="image4" width="300" height="250" onclick="flipImage(3);"></div>
-                <div class="divTableCell"><img src="" id="image5" width="300" height="250" onclick="flipImage(4);"></div>
-            </div>
+<!-- need to figure out if the btnSubmit will need to be on every one of them, or if it -->
+<!-- could just be on one of them... don't know if it will actually submit and go to the next -->
+<!-- page  -->
+    <div class="introInfo">
+                <div class="first">First Name</div>
+                <div class="first"><input type="text" id="txtFirstName"></div>
 
-            <div class="divTableRow">
-              <!--row 2  -->
-              <div class="divTableCell"><img src="" id="image6" width="300" height="250" onclick="flipImage(5);"></div>
-              <div class="divTableCell"><img src="" id="image7" width="300" height="250" onclick="flipImage(6);"></div>
-              <div class="divTableCell"><img src="" id="image8" width="300" height="250" onclick="flipImage(7);"></div>
-              <div class="divTableCell"><img src="" id="image9" width="300" height="250" onclick="flipImage(8);"></div>
-              <div class="divTableCell"><img src="" id="image10" width="300" height="250" onclick="flipImage(9);"></div>
-
-            </div>
+            <!-- commenting this out to see if it gets rid of the submit button -->
+            <!-- to see if only 1 submit button will do the trick -->
+            <!-- <div class="firstNameStuff"> -->
+                <!-- <div class="first"><button id="btnSubmit" onclick="addToPlayer();">Submit</button></div> -->
+            <!-- </div> -->
 <br>
- <div class="submit">
-     <a href="last.html">
-         <div class="nav-item">Submit When Finished</div>
-     </a>
- </div>
 
-        </div>
+              <div class="ender">Last Name</div>
+              <div class="ender"><input type="text" id="txtLastName"></div>
+
+            <!-- <div class="lastNameStuff">
+              <div class="ender"><button id="btnSubmit" onclick="addToPlayer();">Submit</button></div>
+              </div> -->
+<br>
+
+              <div class="age">Age</div>
+              <div class="age"><input type="text" id="txtAge"></div>
+            
+            <div class="ageStuff">
+              <div class="age"><button id="btnSubmit" onclick="addInfo();">Submit</button></div>
+              </div>
+
     </div>
 
 </body>
