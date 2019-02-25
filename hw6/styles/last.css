@@ -1,0 +1,17 @@
+body{
+    background-color:rgb(41, 185, 199);
+    font-family: 'Josefin Sans',fantasy, sans-serif;
+    font-weight: 300;
+}
+
+.heading{
+  font-size: 20pt;
+  color: rgb(46, 11, 161);
+  text-align: center;
+}
+
+.introInfo{
+  font-size: 28pt;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
