@@ -17,6 +17,6 @@ Kaitlin Clifford
 ## Additional Info
 
 - Grasshopper is still going well! Really enjoying it.
-- I tried to make the intro page to my site work, but when I type in kaitlinclifford.github.io/441_webtech/hw6 it brings me to the main game and then when I go to the last page, nothing comes up because there was nothing stored in the JSON. I changed the name so the intro page is the index.html, but I don't think that worked.
+- On the last page, I couldn't make the score come up for the life of me. I think all of my code it right, but I can't figure out why it's not working. At one point I had "score: undefined" instead of nothing, but now it's just nothing.
 
 My Site: https://kaitlinclifford.github.io/441_webtech/hw6/
