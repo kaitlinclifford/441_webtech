@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>javascript</title>
+    <style>
+      body{
+        background-color: lightblue;
+
+      }
+    </style>
+  </head>
+
+
+  <body>
+    <h1>Contanct Form</h1>
+
+    <br>
+
+    <script>
+
+      // DONT FORGET!!!!! document.getElementById is with Id, not ID
+      //I think that's what alot of your problem was. when you type getElementById,
+      // the id needs to be a capital I with a lower case d.
+      function checkfirstname()
+      {
+        var firstname= document.getElementById('firstname').value;
+        if (firstname==""){
+          document.getElementById("message").innerHTML = "* Required";
+        }
+        else{
+        }
+      }
+
+      function checklastname(){
+        var lastname= document.getElementById('lastname').value;
+        if (lastname==""){
+          document.getElementById("message").innerHTML = "* Required";
+        }
+        else {
+        }
+      }
+
+      function checkemail(){
+        var email= document.getElementById('email').value;
+        if (email==""){
+          document.getElementById("message").innerHTML = "* Required";
+        }
+        else{
+        }
+      }
+
+      function checkaddress(){
+        var address= document.getElementById('address').value;
+        if (address==""){
+          document.getElementById("message").innerHTML = "* Required";
+        }
+        else{
+        }
+      }
+
+// not sure if this part will work or not!!
+// you can email him about this and say that your friend was trying to help you
+// also, the console keeps saying that checkfirstname is not defined
+      function loadinfo(){
+        document.getElementById('firstname').value = "Nice to meet you" + information.firstname + information.lastname;
+        document.getElementById('email').value = "Email: " + information.email;
+        document.getElementById('address').value = "Address: " + information.address;
+
+      }
+    </script>
+
+    <div class="information">
+    <form>
+      First Name: <br>
+      <input type="text" id= "firstname" Required> <br>
+      Last Name: <br>
+      <input type="text" id= "lastname" Required> <br>
+      Email: <br>
+      <input type="text" id= "email" Required> <br>
+      Address: <br>
+      <input type="text" id= "address" Required> <br>
+      <!-- the loadinfo(); at the end is the function I tried to add, but you might not need it if he doens't feel its necessary -->
+      <div class="button"><button id="Submit" onclick="checkfirstname();checklastname();checkemail();checkaddress();loadinfo();">Submit</button></div>
+    </form>
+    </div>
+
+  </body>
+</html>
