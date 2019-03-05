@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(5, 200, 200, 0.55);
+    font-family: 'Josefin Sans',fantasy, sans-serif;
+    font-weight: 300;
+    /* padding: 2; */
+}
+
+/* had to look at someone else's code to understand why my styles */
+/* weren't working for my divs... then found out I needed to have # */
+/* in front unlike I did when it was class instead of id */
+#Artwork {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+#Title {
+ text-align: center;
+ font-family: sans-serif;
+ font-size: 60px;
+ color: white;
+ padding: 10px;
+}
+
+#Author {
+ text-align: center;
+ font-family: sans-serif;
+ font-size: 30px;
+ color: rgb(203, 6, 136);
+}
+
+#Year {
+ text-align: center;
+ font-family: sans-serif;
+ font-size: 30px;
+ color: rgb(70, 42, 130);
+}
+
+#Description {
+ text-align: center;
+ font-family: sans-serif;
+ font-size: 25px;
+ color: black;
+ padding-right: 20px;
+ padding-left: 20px;
+}
+
+button{
+  background:black;
+  color:white;
+  position:relative;
+  height:60px;
+  font-size:30px;
+  padding:0 2em;
+  cursor:pointer;
+}
+
+.submit{
+    text-align: center;
+    padding: 30px;
+}
