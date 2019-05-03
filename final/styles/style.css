@@ -1,0 +1,304 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  /* this is the main font of the page, except for when specified */
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+/* stuff for the home, boy groups and girl groups */
+
+.hero {
+    height: 100vh;
+    min-height: 740px;
+    /*the linear gradient is to create an opacity
+    over my background image so the text is read easier*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .nav {
+font-family: 'rift', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    color: rgb(230, 230, 2330);
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero .nav a {
+    flex-grow: 1;
+    color: rgb(230, 230, 2330);
+    text-decoration: none;
+}
+
+/*  */
+.hero .nav-item {
+    font-size: 1.0em;
+    font-family: 'rift', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 1em 0.5em;
+    text-align: center;
+
+}
+
+/* this is for the color after it gets highlighted */
+.hero .nav-item:hover {
+    color: rgb(230, 230, 2330);
+
+}
+/* end of that stuff */
+
+/* I THINK THIS IS WHERE I ADD THE DROPDOWN MENU STUFF */
+
+/* OTHER DROPDOWN BUTTON TRY */
+
+/* Dropdown Button */
+.dropbtn {
+ background-color: rgb(76, 76, 76);
+ color: rgb(230, 230, 2330);
+ padding: 24px;
+ font-size: 1em;
+ font-family: 'rift', sans-serif;
+ border: none;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: rgb(76, 76, 76);
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(55, 55, 55);}
+
+
+
+
+
+
+
+
+.parallax {
+  /* this is all for the parallax including image */
+  background-image: url("../images/collage.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* the div that includes everything below it with parallax */
+.parallax .nav {
+    font-family: cursive, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: .05em;
+    font-size: 1em;
+
+
+}
+
+/* this references the a href thing */
+.parallax .nav a {
+    color: #fff;
+    /* this takes away the underline that would be there from the link */
+    text-decoration: none;
+}
+
+/* this is for the check out articles writing */
+.parallax .nav-item {
+    font-size: 5em;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    /* margin-top: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em; */
+    text-align: center;
+    /* border around "check out snackfever articles" */
+    border: 1px solid #d9d9d9;
+    /* changes the border width of the square */
+    border-width: 3px 3px;
+    max-height: inherit;
+    /* background-color: rgba(85, 9, 247, 0.7); */
+}
+
+
+.parallax .nav-item:hover {
+    color: #fff;
+    /* this is the color the hover will be when scrolling over it*/
+    background-color: rgba(85, 9, 247, 0.7);
+    max-height: inherit;
+}
+
+
+
+/* DONT FORGET TO ADD STUFF BACK */
+
+/* THE START OF THE SECOND DIV CLASS */
+.parallax .second {
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: 1em;
+
+}
+
+/* this references the a href thing */
+.parallax .second a {
+    color: #fff;
+    /* this takes away the underline that would be there from the link */
+    text-decoration: none;
+}
+
+/* this is for the check out articles writing */
+.parallax .second-item {
+    font-size: 5em;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    text-align: center;
+    /* border around "check out snackfever articles" */
+    border: 1px solid #d9d9d9;
+    /* changes the border width of the square */
+    border-width: 3px 3px;
+    max-height: inherit;
+}
+
+
+.parallax .second-item:hover {
+    color: #fff;
+    /* this is the color the hover will be when scrolling over it*/
+    background-color: rgba(85, 9, 247, 0.7);
+    max-height: inherit;
+}
+
+/* THE START OF THE THIRD DIV CLASS */
+.parallax .third {
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 1em;
+    font-size: 1em;
+
+}
+
+/* this references the a href thing */
+.parallax .third a {
+    color: #fff;
+    /* this takes away the underline that would be there from the link */
+    text-decoration: none;
+}
+
+/* this is for the check out articles writing */
+.parallax .third-item {
+    font-size: 5em;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    text-align: center;
+    /* border around "check out snackfever articles" */
+    border: 1px solid #d9d9d9;
+    /* changes the border width of the square */
+    border-width: 3px 3px;
+    max-height: inherit;
+}
+
+
+.parallax .third-item:hover {
+    color: #fff;
+    /* this is the color the hover will be when scrolling over it*/
+    background-color: rgba(85, 9, 247, 0.7);
+    max-height: inherit;
+}
+
+
+
+
+/* end of the parallax stuff for links at the beginning page */
+
+
+/* these are the words at the bottom of the screen */
+.about {
+  font-size: 25pt;
+  color: black;
+  /* font: 'Josefin Sans'; */
+  float: center;
+  /* margin-top means how many pxs away from the thing above it */
+  /* space between hero image, and about box */
+  margin-top: 30px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  padding: 1em;
+  text-align: center;
+  background-position: center;
+  background-color: rgba(227, 2, 83, 0.7);
+
+}
+
+/* these 2 are pretty much the same as the about div */
+.career {
+  font-size: 25pt;
+  color: black;
+  float: center;
+  margin-top: -50px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  padding: 1em;
+  text-align: center;
+  background-color: rgba(59, 181, 226, 0.8);
+}
+
+/* same */
+.internship {
+  font-size: 25pt;
+  color: black;
+  float: center;
+  margin-top: -50px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: .5em;
+  text-align: center;
+  background-color: rgb(224, 231, 90, .8);
+
+}

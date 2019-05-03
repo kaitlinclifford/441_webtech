@@ -1,0 +1,128 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  /* this is the main font of the page, except for when specified */
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+
+.hero {
+    height: 100vh;
+    min-height: 740px;
+    /*the linear gradient is to create an opacity
+    over my background image so the text is read easier*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero .nav {
+font-family: 'rift', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    color: rgb(255, 216, 145);
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero .nav a {
+    flex-grow: 1;
+    color: rgb(230, 230, 2330);
+    text-decoration: none;
+}
+
+.hero .nav-item {
+    font-size: 1.0em;
+    font-family: 'rift', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 1em 0.5em;
+    text-align: center;
+
+}
+
+.hero .nav-item:hover {
+    color: #fff;
+    background-color: rgba(145, 145, 145, 0.2);
+}
+
+
+/* start of parallax stuff */
+.parallax {
+  /* this is all for the parallax including image */
+  background-image: url("../images/blackpinkbackground.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* the div that includes everything below it with parallax */
+.parallax .nav {
+    font-family: cursive, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-top: .05em;
+    font-size: 1em;
+
+}
+
+/* this references the a href thing */
+.parallax .nav a {
+    color: #fff;
+    /* this takes away the underline that would be there from the link */
+    text-decoration: none;
+}
+
+/* this is for the check out articles writing */
+.parallax .nav-item {
+    font-size: 5.5em;
+    padding: 3.43em 4em;
+    margin: 0 0.5em;
+    /* margin-top: .1em; */
+    text-align: center;
+    /* border around "check out snackfever articles" */
+    border: 1px solid #d9d9d9;
+    /* changes the border width of the square */
+    border-width: 3px 3px;
+    max-height: inherit;
+    background-color: rgba(85, 9, 247, 0.4);
+}
+
+
+/* .parallax .nav-item:hover {
+    color: #fff;
+    /* this is the color the hover will be when scrolling over it*/
+    /* background-color: rgba(85, 9, 247, 0.7); */
+    /* max-height: inherit; */
+/* } */
+
+
+.about {
+  font-size: 25pt;
+  color: black;
+  /* font: 'Josefin Sans'; */
+  float: center;
+  /* margin-top means how many pxs away from the thing above it */
+  /* space between hero image, and about box */
+  margin-top: 30px;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 2em;
+  text-align: center;
+  background-position: center;
+  background-color: rgba(94, 9, 0, 0.8);
+
+}
